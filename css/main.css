@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: inline-block;
+}
+.container {
+    width: 1125px;
+    margin:0 auto;
+    padding:0 20px;
+}
