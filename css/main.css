@@ -40,7 +40,7 @@ img {
     display: flex;
     justify-content: center;
     width: 1480px;
-    height:720px;
+    height:760px;
     padding-top: 90px;
     border-radius:5px;
     background-color: chocolate;
@@ -169,4 +169,55 @@ img {
 .my-balance::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: dimgrey;
+}
+.balance-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.balance-list-item {
+    display: flex;
+    align-items: center;
+}
+.balance-list-item {
+    margin-top: 30px;
+}
+.balance-item-image {
+    margin-right: 15px;
+    width:30px;
+    height: 30px;
+    border-radius:50%;
+    background-color:aliceblue;
+    padding:5px;
+}
+.balance-item-header {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 20px;
+}
+.balance-item-text {
+    margin: 0;
+    padding: 0;
+    color:dimgrey;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.balance-item-number {
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 900;
+    color:blueviolet;
+}
+.balance-item-sup {
+    font-size: 10px;
+}
+.item-number-900 {
+    color:lightgreen;
+}
+hr {
+    opacity: 0.5;
 }
