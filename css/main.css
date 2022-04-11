@@ -4,12 +4,101 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 25px;
 }
 img {
     display: inline-block;
 }
 .container {
-    width: 1125px;
+    width: 1480px;
     margin:0 auto;
     padding:0 20px;
+}
+.wallet-container {
+    display: flex;
+    justify-content: center;
+    width: 1480px;
+    height:720px;
+    padding-top: 90px;
+    border-radius:5px;
+    background-color: chocolate;
+}
+/*-----MAIN-BODY--*/
+.wallet {
+    display: flex;
+    width:800px;
+    margin-bottom: 250px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/*---my-cards-header-section--*/
+.my-cards {
+    margin: 0;
+    padding: 15px;
+    width: 300px;
+    overflow:auto;
+    background-color:rgba(219, 223, 222, 0.993);
+}
+.my-cards-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.cards-title {
+    margin: 0;
+    padding: 0;
+}
+.plus-icon {
+    margin: 0;
+    padding: 0;
+}
+
+/*--my-cards-main-section--*/
+.my-cards::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgb(231, 221, 221);
+}
+.my-cards::-webkit-scrollbar {
+    width: 8px;
+}
+.my-cards::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: dimgrey;
+}
+
+/*---my-balance-header-section--*/
+.my-balance {
+    justify-content: space-between;
+    padding:15px;
+    overflow: auto;
+    width: 500px;
+}
+.my-balance-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.balance-title {
+    margin: 0;
+    padding: 0;
+}
+.balance-number {
+    margin: 0;
+    padding: 0;
+}
+
+/*--my-balance-main-section--*/
+.my-balance::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color:white;
+}
+.my-balance::-webkit-scrollbar {
+    width: 8px;
+}
+.my-balance::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: dimgrey;
 }
